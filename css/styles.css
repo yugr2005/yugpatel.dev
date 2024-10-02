@@ -359,13 +359,17 @@ img {
     background-color: var(--first-color);
 }
 
-.work__link{
+.work__link {
     display: block;
     position: relative;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 1.5rem 1.5rem;
     color: var(--text-color);
     transition: transform .4s;
+    height: 100%; /* Ensures all cards have the same height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content evenly */
 }
 
 .work__title{
@@ -903,6 +907,4 @@ img {
     .scrollup{
         right: 3rem;
     }
-
-    
 }
