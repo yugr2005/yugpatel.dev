@@ -99,12 +99,12 @@ const sr = ScrollReveal({
     origin : 'top',
     ditance : '60px',
     duration : 2500,
-    delay : 400,
+    delay : 300,
     reset : true //Animation repeat
 })
 
 sr.reveal(`.home__data, .experience, .skills, .contact__container`)
-sr.reveal(`.home__img` , {delay: 600})
+sr.reveal(`.home__img` , {delay: 500})
 sr.reveal(`.home__scroll` , {delay: 800})
 sr.reveal(`.work__card, .services__card` , {interval: 100})
 sr.reveal(`.about__content` , {origin : 'right'})
