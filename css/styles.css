@@ -823,7 +823,7 @@ img {
     }
 
     .info__container{
-        row-gap: 4rem;
+        row-gap: 3rem;
     }
 
     .info__title{
@@ -832,12 +832,12 @@ img {
     }
 
     .about{
-        grid-template-columns: 320px 420px;
+        grid-template-columns: 370px 420px;
         column-gap: 11.5rem;
     }
 
     .about__img{
-        width: 320px;
+        width: 350px;
     }
 
     .about__description{
@@ -853,7 +853,7 @@ img {
     }
 
     .experience__data{
-        grid-template-columns: 320px 380px;
+        grid-template-columns: 350px 380px;
         column-gap: 11.5rem;
     }
 
@@ -881,7 +881,7 @@ img {
 
     .services__icon{
         font-size: 2.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .contact__container{
